@@ -1,0 +1,44 @@
+<html>
+    <head>
+<title>
+    Customer Feedback Form
+</title>
+<br>
+<h1 style="color: orange;" align="center">Customer Feedback Form</h1>
+<style>
+fieldset{
+width: 50%;
+margin: 0 auto;
+
+}
+
+</style>
+    </head>
+    <body>
+        <fieldset style="background-color: rgb(255, 222, 185);border: 2px dotted orange;width: 300px; border-radius: 10px;">
+        <form method="post">
+            <label>Name:</label>
+            <br>
+            <input type="text" name="name">
+            <br>
+            <br>
+            <label>Contact:</label>
+            <br>
+            <input type="number" max="10" name="number">
+            <br><br>
+            <label>Address:</label>
+            <br>
+            <textarea rows="4"></textarea>
+            <br><br>
+            <label>Rating:</label>
+            <br>
+            <select>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Bad</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Send" style="background-color: rgba(255, 166, 0, 0.918); color: white; ">
+        </form>
+    </body>
+</html>

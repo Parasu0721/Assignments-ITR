@@ -1,0 +1,43 @@
+.Main{
+    width: 700px;
+    height: 500px;
+    border-radius:20px;
+    box-shadow: 2px black;
+    border: 2px solid rgb(99, 99, 228);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+   
+    width: 45%;
+    height: 72%;
+    float: left;
+    padding-top: 20%;
+    text-align: center;
+    color: antiquewhite;
+    /*background-color:rgb(96, 20, 74);*/
+    background-color: rgb(99, 99, 228);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius:  20px;
+    border-bottom-left-radius:  20px;          
+}
+.subdiv{
+    text-align: center;
+    float: right;
+    width: 55%;
+    height: 100%;
+
+}
+.subdiv i{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(195, 111, 0);
+    transition: all 1s;
+    animation: forwards;
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,33 @@
+.Main{
+    width: 700px;
+    height: 500px;
+    border: 2px solid rgb(96, 20, 74);
+    
+}
+nav{
+   
+    width: 45%;
+    height: 72%;
+    float: left;
+    padding-top: 20%;
+    text-align: center;
+    color: antiquewhite;
+    /*background-color:rgb(96, 20, 74);*/
+    background-image: url(abstract-background-design_1117-154.avif);
+               
+}
+.subdiv{
+    text-align: center;
+    float: right;
+    width: 55%;
+    height: 100%;
+
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(195, 111, 0);
+    transition: all 1s;
+    animation: forwards;
+    margin-top: 10px;
+    
+}
